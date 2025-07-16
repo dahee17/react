@@ -1,0 +1,13 @@
+😊 React 초기 설정 방법
+
+1. 리액트 프로젝트들을 보관할 폴더 생성(ReactJS)
+2. 해당 폴더로 directoroy change (cd 경로)
+3. npm create vite@latest -y
+4. 프로젝트 이름 설정 (한글x, 숫자로시작x)
+5. Select a framework => React 선택
+6. Select a varnaint -> JavaScript + SWC
+7. project 세팅 완료
+8. 실행을 위해 생성된 프로젝트 폴더로 이동(cd project01)
+9. npm install
+10. npm run dev
+11 Local 옆에 쓰여진 주소로 들어가기 
