@@ -11,6 +11,7 @@ const Join = () => {
     const [inputNICK, setInputNICK] = useState(''); 
 
     const tryJoin = () => {
+      // console.log(inputID)
       //  사용자가 입력한 id, pw, nick
       // 쿼리스트링으로 주소에 추가해주자!
       // 쿼리스트링 구조 : 주소 ? key1=value1&key2=value2&key3=value3

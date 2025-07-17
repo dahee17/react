@@ -16,7 +16,8 @@ const Login = () => {
       // console.log(query.get('pw'))
       // console.log(query.get('nick'))
     const tryLogin=()=>{
-
+      // console.log(inputID)
+      // console.log(inputPW)
       if( inputID === query.get('id') && inputPW === query.get('pw')){
         alert('로그인 성공입니다')
       }
