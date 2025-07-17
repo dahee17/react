@@ -34,6 +34,7 @@ const MyRandom = () => {
 
     const [result ,setResult] = useState('')
     //useEffect : 화면 내용이 바뀌면(state값이 바뀌면 실행 하겠다)
+    //  맽 처음 화면이 띄워졌을 때, state값이 바뀔 때
     useEffect(()=>{
         if(chance>=0){
             if(inputNum==ranNum){
