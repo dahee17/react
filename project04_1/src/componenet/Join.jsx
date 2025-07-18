@@ -35,6 +35,10 @@ const Join = () => {
         .then((res)=>{
           // 통신 후 실행 시킬 로직
           console.log(res)
+          // 회원가입에 성공했다면 --> 로그인페이지
+          if(res.data == 1){nav('./login')}
+          // 회원가입에 실패했다면 --> alert('회원가입 실패')
+          else{alert('회원가입 실패')}
         })
         
         
